@@ -1,0 +1,30 @@
+{
+  "type": "crew_timesheet",
+  "job_id": "JOB-2026-042",
+  "site": "Site Alpha — Springfield, MO",
+  "date": "2026-11-04",
+  "crew": [
+    {
+      "name": "Operator A",
+      "role": "Lead",
+      "regular_hours": 8.0,
+      "overtime_hours": 1.5,
+      "break_minutes": 30,
+      "job_codes": ["INSTALL", "CONDUIT"]
+    },
+    {
+      "name": "Operator B",
+      "role": "Tech",
+      "regular_hours": 7.5,
+      "overtime_hours": 0.0,
+      "break_minutes": 30,
+      "job_codes": ["INSTALL"]
+    }
+  ],
+  "total_regular": 15.5,
+  "total_overtime": 1.5,
+  "notes": "Overtime approved by client on-site.",
+  "approved_by": "Client Rep",
+  "sealed_at": "2026-11-04T15:00:00Z",
+  "tool": "TimesheetSeal/0.1.0"
+}
